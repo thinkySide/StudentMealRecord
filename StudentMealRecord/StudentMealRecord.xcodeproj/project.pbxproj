@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8282F4112BE3B966005F1668 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4102BE3B966005F1668 /* SnapKit */; };
-		8282F4142BE3B979005F1668 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4132BE3B979005F1668 /* RxBlocking */; };
-		8282F4162BE3B979005F1668 /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4152BE3B979005F1668 /* RxBlocking-Dynamic */; };
-		8282F4182BE3B979005F1668 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4172BE3B979005F1668 /* RxCocoa */; };
-		8282F41A2BE3B979005F1668 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4192BE3B979005F1668 /* RxCocoa-Dynamic */; };
-		8282F41C2BE3B979005F1668 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F41B2BE3B979005F1668 /* RxRelay */; };
-		8282F41E2BE3B979005F1668 /* RxRelay-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F41D2BE3B979005F1668 /* RxRelay-Dynamic */; };
-		8282F4202BE3B979005F1668 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F41F2BE3B979005F1668 /* RxSwift */; };
-		8282F4222BE3B979005F1668 /* RxSwift-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4212BE3B979005F1668 /* RxSwift-Dynamic */; };
-		8282F4242BE3B979005F1668 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4232BE3B979005F1668 /* RxTest */; };
-		8282F4262BE3B979005F1668 /* RxTest-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4252BE3B979005F1668 /* RxTest-Dynamic */; };
-		8282F4292BE3B9B7005F1668 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4282BE3B9B7005F1668 /* Realm */; };
-		8282F42B2BE3B9B7005F1668 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F42A2BE3B9B7005F1668 /* RealmSwift */; };
+		8282F42E2BE3BA59005F1668 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8282F42D2BE3BA59005F1668 /* CameraViewModel.swift */; };
+		8282F4312BE3BACC005F1668 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8282F4302BE3BACC005F1668 /* Colors.xcassets */; };
+		8282F4342BE3BC02005F1668 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4332BE3BC02005F1668 /* SnapKit */; };
+		8282F4362BE3BC02005F1668 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4352BE3BC02005F1668 /* SnapKit-Dynamic */; };
+		8282F4392BE3BC1F005F1668 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4382BE3BC1F005F1668 /* RxBlocking */; };
+		8282F43B2BE3BC1F005F1668 /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F43A2BE3BC1F005F1668 /* RxBlocking-Dynamic */; };
+		8282F43D2BE3BC1F005F1668 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F43C2BE3BC1F005F1668 /* RxCocoa */; };
+		8282F43F2BE3BC1F005F1668 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F43E2BE3BC1F005F1668 /* RxCocoa-Dynamic */; };
+		8282F4412BE3BC1F005F1668 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8282F4402BE3BC1F005F1668 /* RxRelay */; };
+		8282F4502BE3BD90005F1668 /* LaundryGothicOTF Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8282F44E2BE3BD90005F1668 /* LaundryGothicOTF Regular.otf */; };
+		8282F4512BE3BD90005F1668 /* LaundryGothicOTF Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8282F44F2BE3BD90005F1668 /* LaundryGothicOTF Bold.otf */; };
 		8290436C2BE3B5FC00EA88BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8290436B2BE3B5FC00EA88BE /* AppDelegate.swift */; };
 		8290436E2BE3B5FC00EA88BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8290436D2BE3B5FC00EA88BE /* SceneDelegate.swift */; };
 		829043702BE3B5FC00EA88BE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8290436F2BE3B5FC00EA88BE /* CameraViewController.swift */; };
@@ -28,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8282F42D2BE3BA59005F1668 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		8282F4302BE3BACC005F1668 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8282F44E2BE3BD90005F1668 /* LaundryGothicOTF Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LaundryGothicOTF Regular.otf"; sourceTree = "<group>"; };
+		8282F44F2BE3BD90005F1668 /* LaundryGothicOTF Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LaundryGothicOTF Bold.otf"; sourceTree = "<group>"; };
 		829043682BE3B5FC00EA88BE /* StudentMealRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentMealRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8290436B2BE3B5FC00EA88BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8290436D2BE3B5FC00EA88BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,19 +44,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8282F4242BE3B979005F1668 /* RxTest in Frameworks */,
-				8282F41C2BE3B979005F1668 /* RxRelay in Frameworks */,
-				8282F4222BE3B979005F1668 /* RxSwift-Dynamic in Frameworks */,
-				8282F42B2BE3B9B7005F1668 /* RealmSwift in Frameworks */,
-				8282F4162BE3B979005F1668 /* RxBlocking-Dynamic in Frameworks */,
-				8282F41A2BE3B979005F1668 /* RxCocoa-Dynamic in Frameworks */,
-				8282F4112BE3B966005F1668 /* SnapKit in Frameworks */,
-				8282F4292BE3B9B7005F1668 /* Realm in Frameworks */,
-				8282F4182BE3B979005F1668 /* RxCocoa in Frameworks */,
-				8282F41E2BE3B979005F1668 /* RxRelay-Dynamic in Frameworks */,
-				8282F4202BE3B979005F1668 /* RxSwift in Frameworks */,
-				8282F4262BE3B979005F1668 /* RxTest-Dynamic in Frameworks */,
-				8282F4142BE3B979005F1668 /* RxBlocking in Frameworks */,
+				8282F4342BE3BC02005F1668 /* SnapKit in Frameworks */,
+				8282F4392BE3BC1F005F1668 /* RxBlocking in Frameworks */,
+				8282F4412BE3BC1F005F1668 /* RxRelay in Frameworks */,
+				8282F43D2BE3BC1F005F1668 /* RxCocoa in Frameworks */,
+				8282F4362BE3BC02005F1668 /* SnapKit-Dynamic in Frameworks */,
+				8282F43F2BE3BC1F005F1668 /* RxCocoa-Dynamic in Frameworks */,
+				8282F43B2BE3BC1F005F1668 /* RxBlocking-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,9 +60,37 @@
 		8282F40E2BE3B8AC005F1668 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				8282F44C2BE3BD74005F1668 /* Font */,
 				829043742BE3B5FD00EA88BE /* Assets.xcassets */,
+				8282F4302BE3BACC005F1668 /* Colors.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		8282F42F2BE3BA71005F1668 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				8282F42D2BE3BA59005F1668 /* CameraViewModel.swift */,
+				8290436F2BE3B5FC00EA88BE /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		8282F44C2BE3BD74005F1668 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8282F44D2BE3BD7C005F1668 /* LaundryGothic */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8282F44D2BE3BD7C005F1668 /* LaundryGothic */ = {
+			isa = PBXGroup;
+			children = (
+				8282F44F2BE3BD90005F1668 /* LaundryGothicOTF Bold.otf */,
+				8282F44E2BE3BD90005F1668 /* LaundryGothicOTF Regular.otf */,
+			);
+			path = LaundryGothic;
 			sourceTree = "<group>";
 		};
 		8290435F2BE3B5FC00EA88BE = {
@@ -109,17 +133,9 @@
 		829043812BE3B68000EA88BE /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				829043822BE3B6AB00EA88BE /* View */,
+				8282F42F2BE3BA71005F1668 /* Camera */,
 			);
 			path = Presentation;
-			sourceTree = "<group>";
-		};
-		829043822BE3B6AB00EA88BE /* View */ = {
-			isa = PBXGroup;
-			children = (
-				8290436F2BE3B5FC00EA88BE /* CameraViewController.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,19 +155,13 @@
 			);
 			name = StudentMealRecord;
 			packageProductDependencies = (
-				8282F4102BE3B966005F1668 /* SnapKit */,
-				8282F4132BE3B979005F1668 /* RxBlocking */,
-				8282F4152BE3B979005F1668 /* RxBlocking-Dynamic */,
-				8282F4172BE3B979005F1668 /* RxCocoa */,
-				8282F4192BE3B979005F1668 /* RxCocoa-Dynamic */,
-				8282F41B2BE3B979005F1668 /* RxRelay */,
-				8282F41D2BE3B979005F1668 /* RxRelay-Dynamic */,
-				8282F41F2BE3B979005F1668 /* RxSwift */,
-				8282F4212BE3B979005F1668 /* RxSwift-Dynamic */,
-				8282F4232BE3B979005F1668 /* RxTest */,
-				8282F4252BE3B979005F1668 /* RxTest-Dynamic */,
-				8282F4282BE3B9B7005F1668 /* Realm */,
-				8282F42A2BE3B9B7005F1668 /* RealmSwift */,
+				8282F4332BE3BC02005F1668 /* SnapKit */,
+				8282F4352BE3BC02005F1668 /* SnapKit-Dynamic */,
+				8282F4382BE3BC1F005F1668 /* RxBlocking */,
+				8282F43A2BE3BC1F005F1668 /* RxBlocking-Dynamic */,
+				8282F43C2BE3BC1F005F1668 /* RxCocoa */,
+				8282F43E2BE3BC1F005F1668 /* RxCocoa-Dynamic */,
+				8282F4402BE3BC1F005F1668 /* RxRelay */,
 			);
 			productName = StudentMealRecord;
 			productReference = 829043682BE3B5FC00EA88BE /* StudentMealRecord.app */;
@@ -182,9 +192,8 @@
 			);
 			mainGroup = 8290435F2BE3B5FC00EA88BE;
 			packageReferences = (
-				8282F40F2BE3B966005F1668 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				8282F4272BE3B9B7005F1668 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				8282F4322BE3BC02005F1668 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				8282F4372BE3BC1F005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 829043692BE3B5FC00EA88BE /* Products */;
 			projectDirPath = "";
@@ -200,8 +209,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8282F4312BE3BACC005F1668 /* Colors.xcassets in Resources */,
 				829043782BE3B5FD00EA88BE /* LaunchScreen.storyboard in Resources */,
 				829043752BE3B5FD00EA88BE /* Assets.xcassets in Resources */,
+				8282F4512BE3BD90005F1668 /* LaundryGothicOTF Bold.otf in Resources */,
+				8282F4502BE3BD90005F1668 /* LaundryGothicOTF Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				829043702BE3B5FC00EA88BE /* CameraViewController.swift in Sources */,
+				8282F42E2BE3BA59005F1668 /* CameraViewModel.swift in Sources */,
 				8290436C2BE3B5FC00EA88BE /* AppDelegate.swift in Sources */,
 				8290436E2BE3B5FC00EA88BE /* SceneDelegate.swift in Sources */,
 			);
@@ -429,7 +442,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8282F40F2BE3B966005F1668 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		8282F4322BE3BC02005F1668 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -437,7 +450,7 @@
 				minimumVersion = 5.7.1;
 			};
 		};
-		8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		8282F4372BE3BC1F005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -445,81 +458,43 @@
 				minimumVersion = 6.7.1;
 			};
 		};
-		8282F4272BE3B9B7005F1668 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8282F4102BE3B966005F1668 /* SnapKit */ = {
+		8282F4332BE3BC02005F1668 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8282F40F2BE3B966005F1668 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 8282F4322BE3BC02005F1668 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		8282F4132BE3B979005F1668 /* RxBlocking */ = {
+		8282F4352BE3BC02005F1668 /* SnapKit-Dynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 8282F4322BE3BC02005F1668 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		8282F4382BE3BC1F005F1668 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8282F4372BE3BC1F005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxBlocking;
 		};
-		8282F4152BE3B979005F1668 /* RxBlocking-Dynamic */ = {
+		8282F43A2BE3BC1F005F1668 /* RxBlocking-Dynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 8282F4372BE3BC1F005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = "RxBlocking-Dynamic";
 		};
-		8282F4172BE3B979005F1668 /* RxCocoa */ = {
+		8282F43C2BE3BC1F005F1668 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 8282F4372BE3BC1F005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		8282F4192BE3B979005F1668 /* RxCocoa-Dynamic */ = {
+		8282F43E2BE3BC1F005F1668 /* RxCocoa-Dynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 8282F4372BE3BC1F005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = "RxCocoa-Dynamic";
 		};
-		8282F41B2BE3B979005F1668 /* RxRelay */ = {
+		8282F4402BE3BC1F005F1668 /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 8282F4372BE3BC1F005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
-		};
-		8282F41D2BE3B979005F1668 /* RxRelay-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = "RxRelay-Dynamic";
-		};
-		8282F41F2BE3B979005F1668 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		8282F4212BE3B979005F1668 /* RxSwift-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = "RxSwift-Dynamic";
-		};
-		8282F4232BE3B979005F1668 /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
-		};
-		8282F4252BE3B979005F1668 /* RxTest-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8282F4122BE3B979005F1668 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = "RxTest-Dynamic";
-		};
-		8282F4282BE3B9B7005F1668 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8282F4272BE3B9B7005F1668 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		8282F42A2BE3B9B7005F1668 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8282F4272BE3B9B7005F1668 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
