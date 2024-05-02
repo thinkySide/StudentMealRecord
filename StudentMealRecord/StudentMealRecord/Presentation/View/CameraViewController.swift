@@ -14,4 +14,3 @@ final class CameraViewController: UIViewController {
         view.backgroundColor = .green
     }
 }
-
